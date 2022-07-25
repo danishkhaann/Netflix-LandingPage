@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-image: url(images/netflix-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#section-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top-sec {
+    width: 100%;
+    margin: 1% -40%;
+    display: flex;
+    align-items: center;
+}
+
+#top-sec img {
+    width: 13%;
+    margin-left: 61px;
+}
+
+#signin-form{
+    background-color: rgba(0,0,0, 0.75);
+    height: 70vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+
+
+.form-content{
+   background-color: rgba(0,0,0, 0.75);
+    height: 70vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+    }
+
+    .form-content h1{
+        color: white;
+    font-size: 50px;
+    margin-bottom: 5%;
+    }
+
+    .input-box{
+        width: 80%;
+        background: #363131;
+        height: 45px;
+        margin-bottom: 25px;
+        border-radius: 7px;
+        border-style: hidden;
+        padding: 0 5px 0 12px;
+    }
+
+    #button{
+        width: 80%;
+        font-weight: bold;
+        background-color: red;
+        border-radius: 7px;
+        height: 47px;
+        font-size: 20px;
+        color: white;
+        border-style: hidden;
+    }
